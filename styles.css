@@ -4,22 +4,9 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-nav {
-    background-color: #333;
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Podstawowe style strony */
-body {
     font-family: 'Roboto', 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #111;
+    background-color: #121212;
     color: #eee;
 }
 
@@ -49,11 +36,11 @@ section {
 }
 
 h1, h2, h3 {
-    color: #4af7ff;
+    color: #03a9f4;
 }
 
 .project {
-    border: 1px solid #4af7ff;
+    border: 1px solid #03a9f4;
     padding: 20px;
     margin-bottom: 20px;
     background-color: #333;
@@ -61,52 +48,11 @@ h1, h2, h3 {
 }
 
 footer {
-    clear: both;
-    float: left;
-    background-color: #222;
+    background-color: #03a9f4;
     color: #fff;
     text-align: center;
     padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-    color: #fff;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    margin: 20px 0;
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-.project {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
 }
