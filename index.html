@@ -45,10 +45,21 @@
     </section>
 
     <!-- Kontakt -->
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Chcesz się ze mną skontaktować? Napisz do mnie na adres: <a href="mailto:dan.glowa@email.com">dan.glowa@email.com</a></p>
-    </section>
+<section id="contact">
+    <h2>Kontakt</h2>
+    <form id="contact-form">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Wyślij</button>
+    </form>
+</section>
 
     <!-- Stopka -->
     <footer>
